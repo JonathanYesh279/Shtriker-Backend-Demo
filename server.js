@@ -91,7 +91,7 @@ app.use(helmet({
       styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
       imgSrc: ["'self'", "data:", "blob:"],
       fontSrc: ["'self'", "data:", "https://fonts.gstatic.com"],
-      connectSrc: ["'self'", "https://rmc-music.org", "wss://rmc-music.org"],
+      connectSrc: ["'self'", "https://*.onrender.com", "wss://*.onrender.com", "http://localhost:3001", "ws://localhost:3001"],
       frameSrc: ["'none'"],
       objectSrc: ["'none'"],
       baseUri: ["'self'"],
